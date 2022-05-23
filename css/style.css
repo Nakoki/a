@@ -3,6 +3,7 @@ body{
     background-color:#ABFAE3;
     color:#7FA3AD;
     margin: 0px;
+    line-height: 1.8em;
 }
 
 a{
@@ -19,13 +20,14 @@ a{
     text-align: center; /* text on the center*/
     height: 54px;
     border-bottom: black solid 1px;
+    z-index: 1;
 }
 
 /* Links inside the navbar */
 .navbar a { 
     display: inline-block; 
     color: #7FA3AD;
-    padding: 16px 16px;
+    padding: 16px 16px 9px 16px;
     text-decoration: none;
     letter-spacing: 1px;
     transition: all 0.25s linear; /*color change smoothly*/
